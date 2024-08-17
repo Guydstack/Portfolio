@@ -45,7 +45,7 @@ function EducationSection() {
       </Text>
 
       {/* Modal for displaying the certificate */}
-      <Modal isOpen={isOpen} onClose={onClose} size="lg">
+      <Modal isOpen={isOpen} onClose={onClose} size="lg" bg="gray.800" color="white">
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>Full Stack Web Development Certificate</ModalHeader>
