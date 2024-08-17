@@ -14,6 +14,8 @@ function ProjectCard({ project }) {
       width={{ base: "auto", sm: "500px" }} // Uniform width for all cards
       height="auto" // Uniform height for all cards
       borderRadius="lg"
+      bg="gray.800" 
+      color="white"
       border={"none"}
       display="flex"
       flexDirection={{ base: 'column', md: 'row' }} // Adjust layout for responsive design
