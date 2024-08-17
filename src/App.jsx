@@ -83,7 +83,7 @@ function App() {
   };
 
   return (
-    <Box p={5}>
+    <Box p={5} bg="gray.900" color="white">
       {/* Flexbox Container for About Me and Skills Sections */}
       <Flex direction={{ base: 'column', md: 'column', lg: 'row' }}>
         {/* About Me Section */}
