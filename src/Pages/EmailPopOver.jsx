@@ -15,12 +15,12 @@ function EmailPopover() {
           _active={{}}
         />
       </PopoverTrigger>
-      <PopoverContent>
-        <PopoverArrow />
-        <PopoverCloseButton />
-        <PopoverHeader>Contact Me</PopoverHeader>
+      <PopoverContent bg="gray.700" color="white">  {/* Set background and text color here */}
+        <PopoverArrow bg="gray.700" />  {/* Set arrow background color */}
+        <PopoverCloseButton color="white" />  {/* Set close button color */}
+        <PopoverHeader borderBottomColor="gray.700">Contact Me</PopoverHeader>  {/* Optional: Set border bottom color */}
         <PopoverBody>
-          <a href="mailto:info@guydahan.com">info@guydahan.com</a>
+          <a href="mailto:info@guydahan.com" style={{ color: "white" }}>Send an Email</a> {/* Set link color */}
         </PopoverBody>
       </PopoverContent>
     </Popover>
