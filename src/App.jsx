@@ -210,13 +210,13 @@ function App() {
                 </ListItem>
               </UnorderedList>
             </Text>
-            <Box ml={4} mt={4}>
+            {/* <Box ml={4} mt={4}>
               <Link href="/Guy Dahan - Full Stack CV.pdf" download="Guy_Dahan_CV.pdf">
                 <Button colorScheme='teal' size='xs'>
                   Download My CV
                 </Button>
               </Link>
-            </Box>
+            </Box> */}
           </Box>
 
           {/* Education Section */}
