@@ -201,11 +201,11 @@ function App() {
             <Text fontSize="md" maxW="500px" mx="auto" mb={4}>
               <UnorderedList spacing={3}>
                 <ListItem>
-                  <strong>Full-Stack Web Developer (2023 - Present):</strong><br />
+                  <strong>Full-Stack Web Developer (01/2023 - Present):</strong><br />
                   Gained experience through self-training and a comprehensive course, focusing on creating user-friendly and efficient web applications using JavaScript, React, Node.js, and other modern technologies.
                 </ListItem>
                 <ListItem>
-                  <strong>Self-Employed Carpenter (2021 - Present):</strong><br />
+                  <strong>Self-Employed Carpenter (06/2021 - Present):</strong><br />
                   Leveraged problem-solving skills and attention to detail in carpentry projects, demonstrating adaptability and a strong work ethic.
                 </ListItem>
               </UnorderedList>
