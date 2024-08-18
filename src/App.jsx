@@ -100,8 +100,8 @@ function App() {
             <Heading as="h1" marginBottom={5}>
               Guy Dahan
             </Heading>
-            <Text fontSize="lg" pt={3}>|</Text>
-            <Text fontSize="lg" pt={3}>Portfolio</Text>
+            <Text fontSize="lg" mt={2}>|</Text>
+            <Text fontSize="lg" mt={2}>Portfolio</Text>
           </Flex>
           <Flex maxW="400px" mx="auto" gap={5} justifyContent={{ base: 'center', md: 'center', lg: 'flex-start' }}>
             <Avatar mb={{ base:0, md:0, lg:5 }} size='xl' name='Guy Dahan' src='https://res.cloudinary.com/doxiillcn/image/upload/c_crop,g_auto,h_800,w_800/Portfolio/vcft927jltirajtvxwv2.jpg'/>
