@@ -16,7 +16,7 @@ function EmailPopover() {
           _active={{}}
         />
       </PopoverTrigger>
-      <PopoverContent bg="gray.700" color="white">
+      <PopoverContent bg="gray.700" color="white" borderColor={"whiteAlpha.300"}>
         <PopoverArrow bg="gray.700" />
         <PopoverCloseButton color="white" />
         <PopoverHeader>Contact Me</PopoverHeader>
