@@ -55,7 +55,7 @@ function EducationSection() {
           </ModalBody>
 
           <ModalFooter>
-            <Button colorScheme="teal" mr={3} onClick={onClose}>
+            <Button colorScheme="teal" mr={3} onClick={onClose} background={"teal.200"} color={"black"}>
               Close
             </Button>
           </ModalFooter>
