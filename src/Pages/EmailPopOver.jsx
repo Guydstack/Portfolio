@@ -17,10 +17,10 @@ function EmailPopover() {
         />
       </PopoverTrigger>
       <PopoverContent bg="gray.700" color="white" borderColor={"whiteAlpha.300"}>
-        <PopoverArrow bg="gray.700" />
+        <PopoverArrow bg="gray.700" borderColor={"whiteAlpha.300"} />
         <PopoverCloseButton color="white" />
         <PopoverHeader>Contact Me</PopoverHeader>
-        <PopoverBody>
+        <PopoverBody borderColor={"whiteAlpha.300"}>
           <a href="mailto:info@guydahan.com" style={{ color: "white" }}>info@guydahan.com</a>
         </PopoverBody>
       </PopoverContent>
